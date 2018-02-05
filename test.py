@@ -1,3 +1,5 @@
+#!/bin/sh/python
+
 from numba import jit
 import time
 @jit
