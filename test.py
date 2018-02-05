@@ -1,5 +1,7 @@
 #!/bin/sh/python
+# -*- coding: utf-8 -*-
 
+# author xuyan
 from numba import jit
 import time
 @jit
