@@ -9,4 +9,5 @@ cars = ['bmw','audi','benz']
 # del motorcycles[2]
 # moto_china = motorcycles.pop(1)
 
-print(motorcycles)
+for car in cars:
+	print(car.title())
