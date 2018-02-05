@@ -1,8 +1,12 @@
 #!/bin/sh/python
 # -*- coding: utf-8 -*-
 
-# author xuyan
+# by xuyan 2018/02/05
 
-age = 32
-message = "Happy " + str(age) + "rd Brithday"
-print(message)
+motorcycles = ['honda','yamaha','suzuki','ducati']
+cars = ['bmw','audi','benz']
+# motorcycles.insert(1,'dayang')
+# del motorcycles[2]
+# moto_china = motorcycles.pop(1)
+
+print(motorcycles)
