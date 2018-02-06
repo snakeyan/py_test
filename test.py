@@ -4,7 +4,23 @@
 # author xuyan
 # 2018/02/06
 
-squares = []
-for value in range(1,11):
-	squares.append(value**2)
-print(squares)
+users = {
+        'aeinstein':{
+                    'first':'albert',
+                    'last':'einstein',
+                    'location':'princeton'
+                    },
+                    
+         'mcurie':{
+                 'first':'marie',
+                 'last':'curie',
+                 'location':'paris'
+         }
+        }
+
+for name,info in users.items():
+    print("\nUsername:" + name)
+#    full_name = (info["first"] + " " + info['last'])
+    
+    print("\tFull name:" + (info["first"] + " " + info['last']).title())
+    print("\tLocation:" + info['location'].title())
