@@ -2,15 +2,9 @@
 # -*- coding: utf-8 -*-
 
 # author xuyan
-from numba import jit
-import time
-@jit
-def foo(x,y):
-        tt = time.time()
-        s = 0
-        for i in range(x,y):
-                s += i
-        print('Time used: {} sec'.format(time.time()-tt))
-        return s
+# 2018/02/06
 
-print(foo(1,100000000))
+squares = []
+for value in range(1,11):
+	squares.append(value**2)
+print(squares)
