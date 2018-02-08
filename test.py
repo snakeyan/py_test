@@ -4,6 +4,7 @@
 # author xuyan
 # 2018/02/06
 
+/*
 users = {
         'aeinstein':{
                     'first':'albert',
@@ -24,3 +25,4 @@ for name,info in users.items():
     
     print("\tFull name:" + (info["first"] + " " + info['last']).title())
     print("\tLocation:" + info['location'].title())
+*/
