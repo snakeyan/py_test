@@ -1,0 +1,7 @@
+
+2018/02/06
+ssh-keygen -t rsa -b 4096 -C "freeordie@126.com"
+一行最好不要超过79个字符
+
+2018/02/07
+Anacondas
