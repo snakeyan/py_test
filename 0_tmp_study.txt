@@ -23,13 +23,12 @@ ATTR{address}=="00:0c:29:bb:41:2b", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
 2018/02/09
 
 >>> sys.path
-['', 'C:\\ProgramData\\Anaconda3\\python36.zip', 'C:\\ProgramData\\Anaconda3\\DL
-Ls', 'C:\\ProgramData\\Anaconda3\\lib', 'C:\\ProgramData\\Anaconda3', 'C:\\Progr
-amData\\Anaconda3\\lib\\site-packages', 'C:\\ProgramData\\Anaconda3\\lib\\site-p
-ackages\\Babel-2.5.0-py3.6.egg', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages
-\\win32', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\win32\\lib', 'C:\\Pro
-gramData\\Anaconda3\\lib\\site-packages\\Pythonwin']
 >>>
 
 生成pyc文件
 python -m compileall test_psutil.py
+
+2018/02/10
+support@nord-cn.net
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
