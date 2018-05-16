@@ -1,7 +1,3 @@
-# py_test
-test
-
-
 2018/02/06
 ssh-keygen -t rsa -b 4096 -C "freeordie@126.com"
 一行最好不要超过79个字符
@@ -14,16 +10,6 @@ Anaconda3
 找到与ifconfig -a得出的MAC相同的一行（NAME='eth1'这一行），
 把它改为"NAME=eth0 "，然后把上面一行（NAME='eth0'）删除掉。
 
-vim /etc/udev/rules.d/70-persistent-net.rules
-
-SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", 
-ATTR{address}=="00:0c:29:bb:41:2b", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
-
-2.编辑/etc/sysconfig/network-script/ifcfg-eth0,把MAC改为正确的，把UUID删掉。
-
-3.编辑/etc/sysconf/network，把hostname也改一下。
-
-2018/02/09
 
 >>> sys.path
 >>>
